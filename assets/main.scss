@@ -187,7 +187,7 @@
 
 .footer {
     background-color: #777;
-    padding: 40px 15px;
+    padding: 40px 10px;
     display: flex;
     width: 100%;
 }
@@ -217,8 +217,7 @@
     li{
         cursor: pointer;
         list-style-type: none;
-        
-        
+        justify-content: flex-start;
         &:hover{
             color: white;
             transition: 1s;
@@ -254,4 +253,21 @@ input{
         font-size: 14px;
         font-weight: bold;
     }
+}
+.multiple-items{
+   padding-left: 20px;
+}
+@media only  screen and (max-width:992px) {
+  .news-testimonials{
+      display:block;
+  }
+  .testimonials{
+      margin-top: 20px;
+  }
+  .architectevents{
+      display: block;
+  }
+  .footer{
+      display: block;
+  }
 }
