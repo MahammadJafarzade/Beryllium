@@ -218,6 +218,7 @@
         cursor: pointer;
         list-style-type: none;
         
+        
         &:hover{
             color: white;
             transition: 1s;
@@ -245,4 +246,12 @@ input{
     height: 40%;
     font-size: 19px;
     margin: 4px 4px 4px 0;
+}
+.iconstitle{
+    display: flex;
+    h3{
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: bold;
+    }
 }

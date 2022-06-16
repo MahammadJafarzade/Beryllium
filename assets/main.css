@@ -214,4 +214,16 @@ input {
   font-size: 19px;
   margin: 4px 4px 4px 0;
 }
+
+.iconstitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.iconstitle h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
 /*# sourceMappingURL=main.css.map */
